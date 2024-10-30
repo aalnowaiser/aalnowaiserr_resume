@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 11px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+    
+    
+
+    color: #727171
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+img{
+    border-radius: 120px 120px 120px 120px;
+
+}
+
+
+.container{
+    
+    max-width: 900px;
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    padding: 60px;
+    background-color: #070707;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    border: 2px solid transparent; /* Set initial border style */
+    transition: border-color 0.5s ease;
+    animation: slideFromLeft 1s ease forwards;
+}
+@keyframes slideFromLeft {
+    from {
+        transform: translateX(-5%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.container:hover{
+    border-color: rgba(128, 128, 128, 0.563);
+    border-width: 1px;
+}
+@media only screen and (max-width: 576px ) {
+    .container{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 768px ) {
+    .container{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 992px ) {
+    .container{
+        width: 100%;
+    }
+}
+/*profile section*/
+.profileContainer{
+
+    display: flex;
+    gap: 2rem;
+
+}
+.profile{
+    grid-column: 1 / -1;
+
+}
+.profileImg{
+    max-width: 250px;
+    animation: slideFromLeft 1s ease forwards;
+    
+}
+.profileImg img{
+    transition: transform 0.3s ease; /* Add transition effect to the transform property */
+}
+.profileImg img:hover{
+    transform: scale(1.05); /* Enlarge the image on hover */
+}
+
+.profileDis h1{
+    font-size: 30px;
+    color: goldenrod;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 5px;
+    animation: slideFromLeft 1s ease forwards;
+    
+}   
+.profileDis h2{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 5px;
+    color: aliceblue;
+    animation: slideFromLeft 1s ease forwards;
+    margin-top: 30px;
+}
+.profileDis p{
+    font-size: 14px;
+    animation: slideFromLeft 1s ease forwards;
+
+}
+.profileDis .firstNameInDis{
+    font-size: 35px;
+    color: gold;
+    font-weight: 180;
+    margin-bottom: -1rem;
+}
+/*profile section done*/
+
+
+/*div sides*/
+.firstside , .foot{
+    padding: 5px;
+    animation: slideFromLeft 1s ease forwards;
+}
+.firstside h1 , .foot h1{
+    color: rgb(255, 225, 0);
+    padding-top: 20px;
+
+}
+.firstside ul li{
+    line-height: 2.2;
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+.firstside p , .foot p{
+    font-size: 13px;
+    margin-top: 7px;
+}
+
+/*foot section*/
+.foot {
+    
+  margin-top: 70px;
+
+}
+.foot address{
+    text-decoration: none;
+    margin-top: 10px;
+    color: #727171;
+
+}
+
+.foot address a{
+    text-decoration: none;
+    color: #727171;
+    transition: color 0.6s;
+}
+.foot address a:hover{
+    text-decoration: underline;
+    
+    color: rgb(210, 186, 30);
+
+}
+.foot2{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-top: 7px;
+    
+
+}
+.foot2 p{
+    
+    font-size: 14px;
+
+}
+    </style>
+    <link rel="stylesheet" href="background.css">
+</head>
+<body>
+
+<div class="backgroundbub">
+
+    <span style="--i:11"></span>
+    <span style="--i:23"></span>
+    <span style="--i:14"></span>
+    <span style="--i:12"></span>
+    <span style="--i:9"></span>
+    <span style="--i:20"></span>
+    <span style="--i:27"></span>
+    <span style="--i:33"></span>
+    <span style="--i:19"></span>
+    <span style="--i:18"></span>
+    <span style="--i:25"></span>
+    <span style="--i:10"></span>
+    <span style="--i:11"></span>
+    <span style="--i:23"></span>
+    <span style="--i:14"></span>
+    <span style="--i:12"></span>
+    <span style="--i:9"></span>
+    <span style="--i:20"></span>
+    <span style="--i:27"></span>
+    <span style="--i:33"></span>
+    <span style="--i:19"></span>
+    <span style="--i:18"></span>
+    <span style="--i:25"></span>
+    <span style="--i:10"></span>
+    <span style="--i:11"></span>
+    <span style="--i:23"></span>
+    <span style="--i:14"></span>
+    <span style="--i:12"></span>
+    <span style="--i:9"></span>
+    <span style="--i:20"></span>
+    <span style="--i:27"></span>
+    <span style="--i:33"></span>
+    <span style="--i:19"></span>
+    <span style="--i:18"></span>
+    <span style="--i:25"></span>
+    <span style="--i:10"></span>
+    <span style="--i:11"></span>
+    <span style="--i:23"></span>
+    <span style="--i:14"></span>
+    <span style="--i:12"></span>
+    <span style="--i:9"></span>
+    <span style="--i:20"></span>
+    <span style="--i:27"></span>
+    <span style="--i:33"></span>
+    <span style="--i:19"></span>
+    <span style="--i:18"></span>
+    <span style="--i:25"></span>
+    <span style="--i:10"></span>
+
+
+<div class = "container">
+
+    <div class="profile">
+
+        <div class="profileContainer">
+
+            <div class="profileImg">
+                <img src="image.png" alt="profile picutre">
+
+            </div>
+        
+            <div class="profileDis">
+                <h1 class="firstNameInDis">Abdulrahman</h1>
+                <h1> Ali Alnowaiser</h1>
+                <h2>Computer scientist</h2>
+                <p>Dedicated and proactive Computer Science student with a passion for technology and a strong foundation in programming languages 
+                    <br>such as Python, Java, and C++. Proficient in data structures, algorithms, and software development methodologies.<br><br>
+                     Skilled in problem-solving and logical thinking, with a keen interest in machine learning and artificial intelligence.</p>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="firstside">
+        <h1>Experties</h1>
+        <ul>
+            <li>Java</li>
+            <li>C/C++</li>
+            <li>Python</li>
+            <li>Html / Js / Css</li>
+            <li>Mysql</li>
+        </ul>
+        <h1>Education</h1>
+        <p>bachelor degree in Computer science from University of jeddah</p>
+        <h1>Certifications</h1>
+        <ul>
+            <li>IELTS Certificate grade : 5.5 (2021)</li>
+            <li>Supply Chain Management Strategy (2021)</li>
+            <li>Supply Chain Logistics (2021)</li>
+        </ul>
+        
+        <h1>Projects</h1>
+        <ul>
+            <li>Hotel Rental Application</li>
+            <li>BloodBank Management Database</li>
+        </ul>
+
+        
+
+    </div>
+
+    <div class="firstside">
+        <h1>Experiance</h1>
+        <ul>
+            <li>different Operating systems</li>
+            <li>4 years of java development</li>
+            <li>3 years of python development</li>
+            <li>a year in frontend/backend web development</li>
+            <li>2 years in sql</li>
+            
+        </ul>
+        <h1>Awards</h1>
+        <ul>
+            <li>#2 place in the scale of university in Chess</li>
+            <li>#9 place in the scale of all universities</li>
+        </ul>
+        <h1>Intersts</h1>
+        <p>body building , travelling , monitaring multiple social media accounts
+            , and making my family proud and more importently my mother.
+        </p>
+        
+
+
+
+    </div>
+
+    <div class="foot">
+        
+            <h1>Contact</h1>
+            <p>Saudi arabia al-basateen +966535260171</p>
+            
+            <address>
+                Email : <a href="mailto:aalnowaiserr@gmail.com">aalnowaiserr@gmail.com</a>
+            </address>
+        
+        <h1>Social</h1>
+        <div class="foot2">
+            
+            <p>
+            <a href="https://github.com/aalnowaiser">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+            <path fill="currentColor" d="M12 0a12 12 0 0 0-3.8 23c.6.1.8-.3.8-.6v-2.2c-3.3.7-4-1.6-4-1.6-.5-1.3-1.3-1.6-1.3-1.6-1-1 .1-1 .1-1 1.1.1 1.7 1.1 1.7 1.1 1 1.6 2.6 1.1 3.3.9.1-.8.4-1.3.8-1.6-2.8-.3-5.8-1.4-5.8-6.3 0-1.4.5-2.6 1.1-3.5-.1-.3-.5-1.6.1-3.3 0 0 1-.3 3.3 1.3 1-.3 2-.5 3-.5 1 0 2 .2 3 .5 2.3-1.6 3.3-1.3 3.3-1.3.6 1.7.2 3 .1 3.3.6.9 1 2 1 3.5 0 4.9-3 6-5.8 6 .5.4.8 1.1.8 2.3v3.4c0 .3.2.7.8.6A12 12 0 0 0 12 0"></path>
+            </svg>
+            </a>Github
+            </p>
+            <p>
+            <a href="https://x.com/home">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+            <path fill="currentColor" d="M22.46 6.82c-.54.24-1.12.4-1.72.48.62-.37 1.1-.96 1.32-1.67-.58.34-1.22.58-1.9.7-.54-.58-1.32-.94-2.18-.94-1.65 0-3 1.35-3 3 0 .24.02.48.05.7-2.5-.13-4.72-1.32-6.21-3.13-.26.45-.41.98-.41 1.54 0 1.06.54 2 1.37 2.55-.5-.02-.97-.15-1.38-.38v.04c0 1.48 1.05 2.72 2.44 3-.26.07-.54.1-.83.1-.2 0-.39-.02-.58-.06.39 1.2 1.5 2.07 2.82 2.1-1.03.8-2.32 1.28-3.72 1.28-.24 0-.47-.02-.7-.04 1.33.85 2.93 1.35 4.64 1.35 5.57 0 8.62-4.62 8.62-8.62 0-.13 0-.25-.01-.37.59-.43 1.1-.97 1.5-1.58z"></path>
+            </svg>
+            </a>twitter
+            </p>
+
+        </div>
+    </div>
+        
+    
+    
+</div>
+</div>
+
+</body>
+</html>

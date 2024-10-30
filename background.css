@@ -1,0 +1,39 @@
+.backgroundbub{
+
+    position: relative;
+    display: flex;
+    
+
+
+}
+.backgroundbub span{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background: rgb(217, 239, 20);
+    margin:0 4px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px rgb(186, 198, 54),
+    0 0 50px rgb(140, 141, 78),
+    0 0 100px rgb(161, 168, 111);
+    animation: animateBackground 15s linear infinite; 
+    animation-duration: calc(90s / var(--i));
+}
+.backgroundbub span:nth-child(even){
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 0 10px rgb(183, 176, 176),
+    0 0 50px rgb(162, 162, 173),
+    0 0 100px rgb(166, 166, 175);
+}
+.container{
+    position: absolute;
+    left: 300px;
+}
+@keyframes animateBackground{
+    0%{
+        transform: translateY(100vh) scale(0);
+    }
+    100%{
+        transform: translateY(-10vh) scale(0.5);
+    }
+}
